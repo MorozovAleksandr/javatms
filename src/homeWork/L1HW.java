@@ -1,3 +1,5 @@
+package homeWork;
+
 public class L1HW {
     public static void main(String[] args) {
         System.out.println(task1(4, 3));

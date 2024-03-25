@@ -1,3 +1,5 @@
+package homeWork;
+
 import java.util.Scanner;
 import java.util.function.IntConsumer;
 
