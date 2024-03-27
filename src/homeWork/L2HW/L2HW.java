@@ -1,4 +1,4 @@
-package homeWork;
+package homeWork.L2HW;
 
 import java.util.Scanner;
 import java.util.function.IntConsumer;
@@ -7,13 +7,13 @@ public class L2HW {
     public static void main(String[] args) {
         scannerWrapper(L2HW::task1);
 
-        scannerWrapper(L2HW::task2);
+        /* scannerWrapper(L2HW::task2);
 
         task3();
 
         task4();
 
-        scannerWrapper(L2HW::task5);
+        scannerWrapper(L2HW::task5);*/
     }
 
     public static void task1(int n) {
