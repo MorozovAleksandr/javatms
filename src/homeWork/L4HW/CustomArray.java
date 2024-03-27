@@ -33,28 +33,19 @@ public class CustomArray {
         }
     }
 
-    public void displayArray() {
-        String strArray = "";
+    public void displayArray(boolean isReverse) {
+        StringBuilder strArray = new StringBuilder();
+        int initItem = isReverse ? this.array.length - 1 : 0;
 
-        for (int i = 0; i < this.array.length; i++) {
-            strArray += this.array[i];
+        for (int i = initItem; isReverse ? (i >= 0) : (i < this.array.length); i = isReverse ? i - 1 : i + 1) {
+            strArray.append(this.array[i]);
 
-            if (i != this.array.length - 1) {
-                strArray += ", ";
-            }
-        }
+            boolean checkOriginal = i != this.array.length - 1;
+            boolean checkReverse = i != 0;
+            boolean check = isReverse ? checkReverse : checkOriginal;
 
-        System.out.println("[" + strArray + "]");
-    }
-
-    public void displayArrayReverse() {
-        String strArray = "";
-
-        for (int i = this.array.length - 1; i >= 0; i--) {
-            strArray += this.array[i];
-
-            if (i != 0) {
-                strArray += ", ";
+            if (check) {
+                strArray.append(", ");
             }
         }
 
