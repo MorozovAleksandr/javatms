@@ -97,12 +97,8 @@ public class CustomArray {
                 count++;
             }
         }
-
-        if (count != 0) {
-            System.out.println("Number of zero elements: " + count);
-        } else {
-            System.out.println("No null elements");
-        }
+        
+        System.out.println(count != 0 ? "Number of zero elements: " + count : "No null elements");
     }
 
     public void swapElements() {
