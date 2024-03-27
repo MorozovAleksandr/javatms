@@ -3,12 +3,12 @@ package homeWork.L4HW;
 public class L4HW {
     public static void main(String[] args) {
         //task1();
-        //task23();
+        task23();
         //task4();
         //task5();
         //task6();
 
-        additionalTask();
+        //additionalTask();
     }
 
     public static void task1() {
@@ -18,9 +18,9 @@ public class L4HW {
     }
 
     public static void task23() {
-        CustomArray customArray = new CustomArray(true);
-        customArray.getMin();
-        customArray.getMax();
+        CustomArray customArray = new CustomArray(false);
+        customArray.getMinMax(true);
+        customArray.getMinMax(false);
     }
 
     public static void task4() {

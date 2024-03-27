@@ -61,32 +61,23 @@ public class CustomArray {
         System.out.println("[" + strArray + "]");
     }
 
-    public void getMin() {
-        int minValue = this.array[0];
-        int minIndex = 0;
+    public void getMinMax(boolean isMin) {
+        int value = this.array[0];
+        int index = 0;
 
         for (int i = 0; i < this.array.length; i++) {
-            if (this.array[i] < minValue) {
-                minValue = this.array[i];
-                minIndex = i;
+            boolean checkMin = this.array[i] < value;
+            boolean checkMax = this.array[i] > value;
+            boolean check = isMin ? checkMin : checkMax;
+
+            if (check) {
+                value = this.array[i];
+                index = i;
             }
         }
 
-        System.out.println("Min: " + minValue + "(index - " + minIndex + ")");
-    }
-
-    public void getMax() {
-        int maxValue = this.array[0];
-        int maxIndex = 0;
-
-        for (int i = 0; i < this.array.length; i++) {
-            if (this.array[i] > maxValue) {
-                maxValue = this.array[i];
-                maxIndex = i;
-            }
-        }
-
-        System.out.println("Max: " + maxValue + "(index - " + maxIndex + ")");
+        String message = isMin ? "Min: " : "Max: ";
+        System.out.println(message + value + "(index - " + index + ")");
     }
 
     public void getZeroElements() {
@@ -97,7 +88,7 @@ public class CustomArray {
                 count++;
             }
         }
-        
+
         System.out.println(count != 0 ? "Number of zero elements: " + count : "No null elements");
     }
 
