@@ -131,6 +131,8 @@ public class CustomArray {
         System.out.println("is Sequence");
     }
 
+
+    // TODO: как упростить алгоритм?
     public void addOne() {
         int lastItem = this.array[this.array.length - 1];
         final int N = 9;
