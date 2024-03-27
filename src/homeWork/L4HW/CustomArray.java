@@ -20,7 +20,7 @@ public class CustomArray {
 
     private void randomFill() {
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 100);
+            this.array[i] = (int) (Math.random() * 100);
         }
     }
 
@@ -29,7 +29,7 @@ public class CustomArray {
             Scanner scanner = new Scanner(System.in);
             System.out.print("index " + i + " = ");
 
-            array[i] = scanner.nextInt();
+            this.array[i] = scanner.nextInt();
         }
     }
 
