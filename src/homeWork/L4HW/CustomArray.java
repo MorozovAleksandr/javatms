@@ -138,6 +138,4 @@ public class CustomArray {
             this.array[this.array.length - 1] += 1;
         }
     }
-
-
 }
