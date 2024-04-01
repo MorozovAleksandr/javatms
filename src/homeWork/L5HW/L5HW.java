@@ -53,11 +53,11 @@ public class L5HW {
     public static String[][] fillChessArr(String[][] arr) {
         final String WHITE = "W";
         final String BLACK = "B";
+        final int columnLength = arr[0].length;
+        String[] arrStartWhite = new String[columnLength];
+        String[] arrStartBlack = new String[columnLength];
 
-        String[] arrStartWhite = new String[arr[0].length];
-        String[] arrStartBlack = new String[arr[0].length];
-
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < columnLength; i++) {
             if (i == 0) {
                 arrStartWhite[i] = WHITE;
                 arrStartBlack[i] = BLACK;
