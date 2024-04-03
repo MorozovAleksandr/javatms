@@ -1,18 +1,18 @@
 package homeWork.L6HW;
 
 public class ATM {
-    private int banknote20 = 0;
+
     private final int DENOMINATION20 = 20;
-    private int banknote50 = 0;
     private final int DENOMINATION50 = 50;
-    private int banknote100 = 0;
     private final int DENOMINATION100 = 100;
+
+    private int banknote20 = 0;
+    private int banknote50 = 0;
+    private int banknote100 = 0;
 
 
     public ATM(int banknote20, int banknote50, int banknote100) {
-        this.banknote20 = banknote20;
-        this.banknote50 = banknote50;
-        this.banknote100 = banknote100;
+        deposit(banknote20, banknote50, banknote100);
     }
 
     public void deposit(int banknote20, int banknote50, int banknote100) {
