@@ -23,8 +23,8 @@ public class L6HW {
 
     public static void additionalTask() {
         ATM atm = new ATM(1, 1, 1);
-        atm.deposit(50, 50, 50);
-        boolean result = atm.withdraw(5570);
+        atm.deposit(5, 1, 1);
+        boolean result = atm.withdraw(180);
 
         System.out.println(result ? "Успех" : "Неуспех");
     }

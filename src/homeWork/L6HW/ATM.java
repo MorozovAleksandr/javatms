@@ -21,6 +21,33 @@ public class ATM {
         this.banknote100 = banknote100;
     }
 
+    Withdraw[] generateCombinations(int[][] items, double initAmount) {
+        for (int i = 0; i < items.length; i++) {
+            for (int j = 0; j < items.length; j++) {
+                for (int k = 0; k < items.length; k++) {
+                    if (i != j && i != k && j != k) {
+                        double amount = initAmount;
+                        Withdraw firstItem = new Withdraw(amount, items[i][0], items[i][1]);
+                        amount = firstItem.getAmount();
+
+                        Withdraw secondItem = new Withdraw(amount, items[j][0], items[j][1]);
+                        amount = secondItem.getAmount();
+
+                        Withdraw thirdItem = new Withdraw(amount, items[k][0], items[k][1]);
+                        amount = thirdItem.getAmount();
+
+
+                        if (amount == 0.0) {
+                            return new Withdraw[]{firstItem, secondItem, thirdItem};
+                        }
+                    }
+                }
+            }
+        }
+
+        return null;
+    }
+
     public boolean withdraw(double amount) {
         int amountAtAtm = banknote20 * DENOMINATION20 + banknote50 * DENOMINATION50 + banknote100 * DENOMINATION100;
 
@@ -29,23 +56,18 @@ public class ATM {
             return false;
         }
 
-        Withdraw check100 = new Withdraw(amount, this.banknote100, DENOMINATION100);
-        amount = check100.getAmount();
+        int[][] combinations = {{this.banknote100, DENOMINATION100}, {this.banknote50, DENOMINATION50}, {this.banknote20, DENOMINATION20}};
 
-        Withdraw check50 = new Withdraw(amount, this.banknote50, DENOMINATION50);
-        amount = check50.getAmount();
+        Withdraw[] generateComb = generateCombinations(combinations, amount);
 
-        Withdraw check20 = new Withdraw(amount, this.banknote20, DENOMINATION20);
-        amount = check20.getAmount();
-
-        if (amount > 0) {
+        if (generateComb == null) {
             System.out.println("Нет купюр подходящего номинала для данной суммы");
             return false;
         }
 
-        System.out.println("Снято купюр номиналом 100: " + check100.getCountBanknote());
-        System.out.println("Снято купюр номиналом 50: " + check50.getCountBanknote());
-        System.out.println("Снято купюр номиналом 20: " + check20.getCountBanknote());
+        for (Withdraw item : generateComb) {
+            System.out.println("Снято купюр номиналом " + item.getDenomination() + ": " + " " + item.getCountBanknote());
+        }
 
         return true;
     }
