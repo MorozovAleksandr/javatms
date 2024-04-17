@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="upd">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="updated gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson8" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +54,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2dsJJ973FWcq4SnQL3zJu2Fqw5p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,15 +73,16 @@
     "Application.L6HW.executor": "Run",
     "Application.L7HW.executor": "Run",
     "Application.L8HW.executor": "Run",
+    "Application.L9HW.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.homeWork.L2HW.L2HW.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "L9HW",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/iamal/Desktop/tms",
+    "last_opened_file_path": "C:/Users/iamal/Desktop/tms/tms.iml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -225,7 +224,8 @@
       <workItem from="1713200048634" duration="165000" />
       <workItem from="1713202039016" duration="257000" />
       <workItem from="1713202311673" duration="18000" />
-      <workItem from="1713202393747" duration="55000" />
+      <workItem from="1713202393747" duration="1808000" />
+      <workItem from="1713212890242" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <option name="closed" value="true" />
@@ -419,7 +419,47 @@
       <option name="project" value="LOCAL" />
       <updated>1713200101623</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="same fix">
+      <option name="closed" value="true" />
+      <created>1713202521323</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713202521323</updated>
+    </task>
+    <task id="LOCAL-00026" summary="task1">
+      <option name="closed" value="true" />
+      <created>1713214024368</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214024368</updated>
+    </task>
+    <task id="LOCAL-00027" summary="task1">
+      <option name="closed" value="true" />
+      <created>1713214106986</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214106986</updated>
+    </task>
+    <task id="LOCAL-00028" summary="task2, additionalTask">
+      <option name="closed" value="true" />
+      <created>1713217049859</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713217049859</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updated gitignore">
+      <option name="closed" value="true" />
+      <created>1713217193781</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713217193781</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +495,11 @@
     <MESSAGE value="init 7" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="same fix" />
+    <MESSAGE value="task1" />
+    <MESSAGE value="task2, additionalTask" />
+    <MESSAGE value="updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
