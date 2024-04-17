@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="task2, additionalTask">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="updated gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,7 +225,7 @@
       <workItem from="1713202039016" duration="257000" />
       <workItem from="1713202311673" duration="18000" />
       <workItem from="1713202393747" duration="1808000" />
-      <workItem from="1713212890242" duration="4234000" />
+      <workItem from="1713212890242" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <option name="closed" value="true" />
@@ -453,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713217049859</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="updated gitignore">
+      <option name="closed" value="true" />
+      <created>1713217193781</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713217193781</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +498,8 @@
     <MESSAGE value="same fix" />
     <MESSAGE value="task1" />
     <MESSAGE value="task2, additionalTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="task2, additionalTask" />
+    <MESSAGE value="updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
