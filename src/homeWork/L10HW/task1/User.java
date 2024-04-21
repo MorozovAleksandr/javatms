@@ -3,14 +3,37 @@ package homeWork.L10HW.task1;
 public class User implements IUser {
     private final String name;
     private final int id;
+    private Phone phone;
 
-    public User(String name, int id) {
+    public User(String name, int id, String phoneNumber) {
         this.name = name;
         this.id = id;
+        this.phone = new Phone(phoneNumber);
     }
 
     public int getId() {
         return id;
+    }
+
+    public void setPhone(Phone phone) {
+        this.phone = phone;
+    }
+
+    public Phone getPhone() {
+        return phone;
+    }
+
+
+    @Override
+    public User clone() throws CloneNotSupportedException {
+        return (User) super.clone();
+    }
+
+    public User deepClone() throws CloneNotSupportedException {
+        User cloneUser = (User) super.clone();
+        Phone phone = this.phone.clone();
+        cloneUser.setPhone(phone);
+        return cloneUser;
     }
 
     @Override
@@ -25,7 +48,7 @@ public class User implements IUser {
 
     @Override
     public String toString() {
-        return "User {\n\tname:" + name + "\n\tid:" + id + "\n}";
+        return "User {\n\tname:" + name + "\n\tid:" + id + "\n\tphone: " + phone + "\n}";
     }
 
     @Override
