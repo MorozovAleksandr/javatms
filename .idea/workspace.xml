@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="task1">
-      <change afterPath="$PROJECT_DIR$/src/homeWork/L10HW/additionalTask/CopyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/L10HW/task1/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork/L10HW/L10HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/L10HW/L10HW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork/L10HW/task1/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/L10HW/task1/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork/L10HW/task1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/L10HW/task1/User.java" afterDir="false" />
+    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="additional task">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +230,7 @@
       <workItem from="1713202393747" duration="1808000" />
       <workItem from="1713212890242" duration="4572000" />
       <workItem from="1713524485217" duration="12000" />
-      <workItem from="1713729018747" duration="5019000" />
+      <workItem from="1713729018747" duration="5130000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <option name="closed" value="true" />
@@ -477,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713730763722</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="additional task">
+      <option name="closed" value="true" />
+      <created>1713734308828</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713734308828</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +520,8 @@
     <MESSAGE value="task2, additionalTask" />
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1" />
+    <MESSAGE value="additional task" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
