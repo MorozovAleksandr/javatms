@@ -31,8 +31,8 @@ public class User implements IUser {
 
     public User deepClone() throws CloneNotSupportedException {
         User cloneUser = (User) super.clone();
-        Phone phone = this.phone.clone();
-        cloneUser.setPhone(phone);
+        Phone clonePhone = this.phone.clone();
+        cloneUser.setPhone(clonePhone);
         return cloneUser;
     }
 
