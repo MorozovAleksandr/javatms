@@ -1,5 +1,6 @@
 package homeWork.L13HW.task1;
 
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,21 +20,30 @@ public class Credentials {
 
     static public boolean checkCredentials(String login, String password, String confirmPassword) {
         try {
+            ArrayList<Exception> exceptions = new ArrayList<>();
+
             if (checkPattern(PATTERN_LOGIN, login)) {
-                throw new WrongLoginException(ERROR_LOGIN);
+                exceptions.add(new WrongLoginException(ERROR_LOGIN));
             }
 
             if (checkPattern(PATTERN_PASSWORD, password)) {
-                throw new WrongPasswordException(ERROR_PASSWORD);
+                exceptions.add(new WrongPasswordException(ERROR_PASSWORD));
             }
 
             if (!password.equals(confirmPassword)) {
-                throw new WrongPasswordException(ERROR_PASSWORD2);
+                exceptions.add(new WrongPasswordException(ERROR_PASSWORD2));
+            }
+
+            if (!exceptions.isEmpty()) {
+                throw new WrongCredentialsExceptions(exceptions.toArray(new Exception[0]));
             }
 
             return true;
-        } catch (WrongLoginException | WrongPasswordException e) {
-            System.out.println(e.getMessage());
+        } catch (WrongCredentialsExceptions exceptions) {
+            // Обрабатываем массив ошибок, чтобы юзер получал сразу все ошибки
+            for (Exception exception : exceptions.getExceptions()) {
+                System.out.println(exception.getMessage());
+            }
 
             return false;
         }

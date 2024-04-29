@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/homeWork/L13HW/task1/WrongCredentialsExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeWork/L13HW/L13HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/L13HW/L13HW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWork/L13HW/task1/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/L13HW/task1/Credentials.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714427041770</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="init">
+      <option name="closed" value="true" />
+      <created>1714427590538</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1714427590538</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
