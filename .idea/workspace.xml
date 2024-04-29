@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="updated gitignore" />
+    <list default="true" id="8a041495-feb8-4c9c-bb73-be58d1922fee" name="Changes" comment="updated gitignore">
+      <change afterPath="$PROJECT_DIR$/src/homeWork/L13HW/L13HW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/L13HW/task1/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/L13HW/task1/WrongLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/L13HW/task1/WrongPasswordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,41 +68,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BankApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassWork.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L1HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L2HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L4HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L5HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L6HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L7HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L8HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L9HW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homeWork.L2HW.L2HW.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;L9HW&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/iamal/Desktop/tms/tms.iml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/iamal/Desktop/tms/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankApp.executor": "Run",
+    "Application.ClassWork.executor": "Run",
+    "Application.L13HW.executor": "Run",
+    "Application.L1HW.executor": "Run",
+    "Application.L2HW.executor": "Run",
+    "Application.L4HW.executor": "Run",
+    "Application.L5HW.executor": "Run",
+    "Application.L6HW.executor": "Run",
+    "Application.L7HW.executor": "Run",
+    "Application.L8HW.executor": "Run",
+    "Application.L9HW.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.homeWork.L2HW.L2HW.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "L13HW",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/iamal/Desktop/tms/tms.iml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/iamal/Desktop/tms/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.homeWork.L2HW.L2HW">
+}]]></component>
+  <component name="RunManager">
     <configuration name="L1HW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork.L1HW.L1HW" />
       <module name="tsm" />
@@ -459,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713217193781</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="updated gitignore">
+      <option name="closed" value="true" />
+      <created>1714424782368</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1714424782368</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
