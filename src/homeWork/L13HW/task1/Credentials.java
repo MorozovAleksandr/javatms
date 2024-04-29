@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class Credentials {
     private final static String PATTERN_LOGIN = "^[^\\s]{1,19}$";
     private final static String PATTERN_PASSWORD = "^(?=.*\\d)[^\\s]{1,19}$";
-    
+
     private final static String ERROR_LOGIN = "Длина login должна быть меньше 20 символов и не должен содержать пробелы";
     private final static String ERROR_DEFAULT_PASSWORD = "Длина password должна быть меньше 20 символов, не должен содержать пробелов и должен содержать хотя бы одну цифру";
     private final static String ERROR_UNMATCHED_PASSWORD = "Пароли не совпадают";
@@ -44,6 +44,7 @@ public class Credentials {
             // Обрабатываем массив ошибок, чтобы юзер получал сразу все ошибки
             for (Exception exception : exceptions.getExceptions()) {
                 System.out.println(exception.getMessage());
+                // exception.printStackTrace();
             }
 
             return false;
