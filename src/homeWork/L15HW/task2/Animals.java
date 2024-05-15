@@ -1,11 +1,11 @@
 package homeWork.L15HW.task2;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
 public class Animals {
-    private final Deque<Animal> animals = new LinkedList<>();
+    private final Deque<Animal> animals = new ArrayDeque<>();
 
     public Animals(String[] initAnimals) {
         for (String animal : initAnimals) {
