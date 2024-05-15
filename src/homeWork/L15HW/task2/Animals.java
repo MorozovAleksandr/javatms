@@ -2,6 +2,7 @@ package homeWork.L15HW.task2;
 
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 public class Animals {
     private final Deque<Animal> animals = new LinkedList<>();
@@ -17,7 +18,12 @@ public class Animals {
     }
 
     public void remove() {
-        animals.removeLast();
+        try {
+            animals.removeLast();
+        } catch (NoSuchElementException e) {
+            System.out.println("Животных нету");
+        }
+
     }
 
     @Override
