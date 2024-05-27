@@ -5,7 +5,7 @@ import java.util.*;
 public class L18HW {
     public static void main(String[] args) {
         // task1();
-        
+
         additionalTask();
     }
 
@@ -27,15 +27,12 @@ public class L18HW {
             put(14, "Katya");
         }};
 
-
-        List<String> listNames = Arrays.stream(allowedId)
+        Arrays.stream(allowedId)
                 .filter(userMap::containsKey)
                 .mapToObj(userMap::get)
                 .filter(name -> name.length() % 2 != 0)
                 .map(name -> new StringBuilder(name).reverse().toString())
-                .toList();
-
-
-        System.out.println(listNames);
+                .toList()
+                .forEach(System.out::println);
     }
 }
